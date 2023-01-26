@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ImplementationsInInterfaces
 {
-    public interface IBase
+    interface IBase
     {
-        public string A { get; set; }
+        string A { get; set; }
 
-        public string Dupe(int count);
+        string Dupe(int count);
 
-        public string Add(string b) => A + b;
+        string Add(string b) => A + b;
 
 
 
