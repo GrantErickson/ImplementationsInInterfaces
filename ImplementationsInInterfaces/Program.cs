@@ -11,6 +11,6 @@ Console.WriteLine(((IBase)adderI).Add("B"));
 
 AdderFromBase adderB = new("Test");
 Console.WriteLine(adderB.Dupe(3));
+// Note that this can be called either as the object or as the base class.
 Console.WriteLine(adderB.Add("B"));
 Console.WriteLine(((Base)adderB).Add("B"));
-

@@ -13,8 +13,5 @@ namespace ImplementationsInInterfaces
         string Dupe(int count);
 
         string Add(string b) => A + b;
-
-
-
     }
 }

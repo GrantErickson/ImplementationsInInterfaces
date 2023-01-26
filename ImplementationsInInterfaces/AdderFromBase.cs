@@ -12,9 +12,7 @@ namespace ImplementationsInInterfaces
         {
             A = a;
         }
-
         public override string A { get; set; }
-
         public override string Dupe(int count)
         {
             return string.Concat(Enumerable.Repeat(A, count));
